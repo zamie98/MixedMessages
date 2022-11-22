@@ -1,4 +1,4 @@
-
+const prompt = require("prompt-sync")({ sigint: true });
 let userName = prompt("What is your name? ");
 
 console.log(`Hello ${userName} and welcome to the Inspo channel!`);
